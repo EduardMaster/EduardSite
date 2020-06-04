@@ -11,12 +11,14 @@
 <tbody>
 <?php
 for ($x = 1;$x <=10;$x++){
-	echo "<tr>";
+	
 	for ($y = 1;$y <=10;$y++){
-	echo "<td>$x x $y = </td> <td>" . ($x*$y) . "</td>";
-	}
-	echo "</tr>";
+		echo "<tr>";
+		echo "<td>$x x $y = </td> <td>" . ($x*$y) . "</td>";
+		echo "</tr>\n";
 }
+	}
+
 
 ?>
 </tbody>
